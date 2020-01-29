@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Nolan Bold";
+  src: url("../fonts/nolan-bold-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Nolan Medium";
+  src: url("../fonts/nolan-medium-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Parasupreme Light";
+  src: url("../fonts/parasupreme-lightfine-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Parasupreme Regular";
+  src: url("../fonts/parasupreme-regularfine-webfont.woff2");
+}
