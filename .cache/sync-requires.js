@@ -9,6 +9,7 @@ exports.components = {
   "component---src-pages-404-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/404.js"))),
   "component---src-pages-ind-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/ind.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/index.js"))),
-  "component---src-pages-page-2-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/page-2.js")))
+  "component---src-pages-page-2-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/page-2.js"))),
+  "component---src-pages-article-js": hot(preferDefault(require("/home/tei/bitbucket/my-default-starter/src/pages/article.js")))
 }
 

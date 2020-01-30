@@ -2,6 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+import Articlebanner from "../components/articlebanner"
+import Article_1 from "../components/article_1"
+import Article_2 from "../components/article_2"
+import Article_3 from "../components/article_3"
 import Top_1 from "../components/top_1"
 import Top_2 from "../components/top_2"
 import Top_3 from "../components/top_3"
@@ -14,6 +18,7 @@ import Three_3 from "../components/three_3"
 import Four_1 from "../components/four_1"
 import Four_2 from "../components/four_2"
 import Four_3 from "../components/four_3"
+import Bettylarge from "../components/bettylarge"
 
 
 
@@ -28,7 +33,7 @@ import Helmet from 'react-helmet'
 import Menuheader from "../components/menuheader"
 
 
-const Ind = () => (
+const Article = () => (
                 <>
                 
 				<header id="header" class="alt">
@@ -65,198 +70,45 @@ const Ind = () => (
   
 				</header>
 
-				<section id="banner">
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <h5>LATEST</h5>
-					<h2>NEWS</h2>
+				<section id="banner_article">
 				</section>
             
                 <div class="ui container" style={{width: "85%"}}>
 					<section class="ui very padded segment" style={{zIndex: "1000", width: "100%"}}>
-                        <div class="ui three column center aligned grid">
-                            <div class="row">
-                                <br></br>
-                            </div>
-                            <div class="row">
-                                <br></br>
-                            </div>
-
-                            <div class="row">
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 20,18</h11>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Link to='/article/'>
-                                <Top_1 />
-                                </Link>
-                                </div> 
-                                <h21>
-                                    ETIAM PORTA SEM MALESUADA MAGNA MOLLIS EUISMOD.
-                                </h21>
-                                </div> 
-                              </div>
-                              <div class="column">
-                                <div class="column">
+                        <div class="ui one column center aligned grid">
+                            <div class ="column">
+                            <div class="row" style={{marginTop: "5%"}}>
                                 <h11>DEC 04,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Top_2 />
-                                </div>  
-                                <h21>
+                            </div>
+                            <div class="row" style={{marginLeft: "10%", marginRight: "10%", marginTop: "5%"}}>
+                                <h22>
                                     CRAS MATTIS CONSECTETUR PURUS SIT AMET FERMENTUM. CRAS JUSTO ODIO, DAPIBUS.
-                                </h21>
-
-                              </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>NOV 16,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Top_3 />
-                                </div>  
-                                <h21>
-                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
-                                </h21>
-
-
-                              </div>
-                              </div>
-                              </div>
-                            <div class="row">
-                                <br></br>
+                                </h22>
                             </div>
-                            <div class="row">
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 20,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Two_1 />
-                                </div> 
-                                <h21>
-                                    ETIAM PORTA SEM MALESUADA MAGNA MOLLIS EUISMOD.
-                                </h21> 
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 04,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Two_2 />
-                                </div>  
-                                <h21>
-                                    CRAS MATTIS CONSECTETUR PURUS SIT AMET FERMENTUM. CRAS JUSTO ODIO, DAPIBUS.
-                                </h21> 
+                            <div class="row" style={{marginLeft: "25%", marginRight: "25%", marginTop: "8%", textAlign: "left"}}>
+                                <ha1>
+                                    Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>NOV 16,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Two_3 />
-                                </div>  
-                                <h21>
-                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
-                                </h21> 
+Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Donec sed odio dui. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor.
 
-                                </div>
-                              </div>
+Donec sed odio dui. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                                </ha1>
                             </div>
-
-                            <div class="row">
-                                <br></br>
+                            <div class="row" style={{marginLeft: "17%", marginRight: "17%", marginTop: "13%"}}>
+                                <div style={{ maxWidth: `858px`, marginBottom: `1.45rem` }}>
+                                <Bettylarge />
+                                </div>  
                             </div>
-                            <div class="row">
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 20,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Three_1 />
-                                </div>  
-                                <h21>
-                                    ETIAM PORTA SEM MALESUADA MAGNA MOLLIS EUISMOD.
-                                </h21> 
-
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 04,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Three_2 />
-                                </div>  
-                                <h21>
-                                    CRAS MATTIS CONSECTETUR PURUS SIT AMET FERMENTUM. CRAS JUSTO ODIO, DAPIBUS.
-                                </h21> 
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>NOV 16,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Three_3 />
-                                </div>  
-                                <h21>
-                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
-                                </h21> 
-                                </div>
-                              </div>
+                            <div class="row" style={{marginLeft: "25%", marginRight: "25%", marginTop: "8%", marginBottom: "10%", textAlign: "left"}}>
+                                <ha1>
+                                    Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+                                </ha1>
                             </div>
-
-                            <div class="row">
-                                <br></br>
-                            </div>
-
-                            <div class="row">
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 20,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Four_1 />
-                                </div>  
-                                <h21>
-                                    ETIAM PORTA SEM MALESUADA MAGNA MOLLIS EUISMOD.
-                                </h21> 
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>DEC 04,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Four_2 />
-                                </div> 
-                                <h21>
-                                    CRAS MATTIS CONSECTETUR PURUS SIT AMET FERMENTUM. CRAS JUSTO ODIO, DAPIBUS.
-                                </h21> 
-                                </div>
-                              </div>
-                              <div class="column">
-                                <div class="column">
-                                <h11>NOV 16,18</h11>
-                                <br></br>
-                                <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-                                <Four_3 />
-                                </div>  
-                                <h21>
-                                    LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT.
-                                </h21> 
-                                </div>
-                              </div>
                             </div>
 
 
+
+                            
                         </div>
 					</section>
 
@@ -420,4 +272,4 @@ const Ind = () => (
 
 
 
-export default Ind
+export default Article
